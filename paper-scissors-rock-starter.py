@@ -14,6 +14,7 @@ def get_result(user, computer):
     # Hint: Consider the game rules...
     # * If they are the same it's a tie.
     # * Rock beats Scissors, Scissors beat Paper, and Paper beats Rock.
+    pass # <-- Once you add your code you can remove this line
 
 # MAIN CODE STARTS HERE
 
@@ -26,9 +27,9 @@ options = {'P': 'Paper', 'S': 'Scissors', 'R': 'Rock'}
 # >>> Code to initialise the user's score <<<
 # >>> Code to initialise the computer's score <<<
 
-# Use a looping structure to repeat the rounds until either the player
+# Use a while loop to repeat the rounds until either the player
 # or the computer has won 3 times.
-# >>> Code for looping structure / condition <<<
+while True: # <-- Replace True with the correct condition
     # Get user's choice (make it upper case for consistency)
     # Note: You don't need to worry about input validation (for now)
     user_input = input("Choose (P)aper, (S)cissors, or (R)ock: ").upper()

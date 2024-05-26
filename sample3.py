@@ -1,6 +1,6 @@
 import random
 
-number_to_guess = random.randint(1, 10)  # Generate a random number between 1 and 10
+number_to_guess = random.randint(1, 10)
 print("I have picked a number between 1 and 10. Try to guess it!")
 
 guessed = False
@@ -11,5 +11,5 @@ while not guessed:
     elif guess > number_to_guess:
         print("Too high, try again.")
     else:
-        print(f"Congratulations! You've guessed the number.")
+        print("Congratulations! You've guessed the number.")
         guessed = True
