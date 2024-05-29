@@ -30,7 +30,7 @@ options = {'P': 'Paper', 'S': 'Scissors', 'R': 'Rock'}
 # Use a while loop to repeat the rounds until either the player
 # or the computer has won 3 times.
 while True: # <-- Replace True with the correct condition
-    # Get user's choice (make it upper case for consistency)
+    # Get the user's choice (convert it to upper case for consistency)
     # Note: You don't need to worry about input validation (for now)
     user_input = input("Choose (P)aper, (S)cissors, or (R)ock: ").upper()
     
